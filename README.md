@@ -32,6 +32,36 @@ The application will include the following core features:
 - **Detailed property viewing** - Comprehensive property information with high-quality images
 - **Secure checkout process** - Safe and streamlined booking and payment system
 - **User authentication** - Secure user registration, login, and profile management
+## UI Component Patterns
+
+This section outlines the key UI components that will be developed for the AirBnB Clone project. These components will form the foundation of our user interface and will be designed for reusability, consistency, and optimal user experience.
+
+### Components to be Created
+
+#### Navbar
+The Navbar component will serve as the main navigation element across all pages:
+- **Logo Section**: Contains the AirBnB logo that links back to the homepage
+- **Search Functionality**: Central search bar allowing users to input destination, check-in/check-out dates, and number of guests
+- **User Menu**: Account-related navigation including sign-up, log-in, and user profile access
+- **Mobile Responsiveness**: Collapsible hamburger menu for mobile and tablet views
+
+#### Property Card
+The Property Card component will display individual property listings in a grid layout:
+- **Property Image**: Main photo of the property with hover effects and image carousel capability
+- **Property Details**: Essential information including location, price per night, and guest ratings
+- **Interactive Elements**: Favorite/heart button for bookmarking properties
+- **Responsive Design**: Flexible layout that adapts to different screen sizes while maintaining visual appeal
+
+#### Footer
+The Footer component will provide additional navigation and company information:
+- **Navigation Links**: Organized sections for customer support, community, and hosting information
+- **Company Details**: Links to company information, careers, and legal pages
+- **Social Media Integration**: Icons and links to AirBnB's social media profiles
+- **Legal Information**: Copyright notices and links to privacy policy and terms of service
+
+These components will be built with a focus on reusability and consistency, ensuring they can be easily integrated across different pages while maintaining the overall design system of the application.
+
+---
 
 ### Primary Pages
 
@@ -40,6 +70,7 @@ The application will include the following core features:
 | **Property Listing View** | Grid display of available properties with advanced filtering options, search functionality, and sorting capabilities |
 | **Listing Detailed View** | Comprehensive property details including multiple images, amenities, reviews, location map, and integrated booking form |
 | **Simple Checkout View** | Streamlined payment process with booking summary, guest information form, and secure payment confirmation |
+
 
 ### Importance of User-Friendly Design
 A well-designed booking system is crucial for success as it:
